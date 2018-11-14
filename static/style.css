@@ -15,12 +15,12 @@
 /* VARIABLES COLOR
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
---color_background_main: #f4bb3e; /* mid yellow */
---color_background_content: #f7cf76; /* light yellow */
---color_credits: #fede95; /* white yellow */
+--color_background_main: #e01001; /* mid red */
+--color_background_content: #FD392A; /* light red */
+--color_credits: #FF6357; /* white red */
 
---color_contrast: #481FB2; /* mid lilac */
---color_contrast_light: #B598FF; /* light lilac */
+--color_contrast: #8C0A00; /* dark red */
+--color_contrast_light: #e01001; /* mid red */
 
 --color_white: #fff; /* white */
 }
@@ -170,8 +170,13 @@ display: none;
 }
 
 .logo {
+display: block;
 order: 1;
 margin: 0 0 10px 0;
+}
+
+.logo_mobile {
+display: none;
 }
 
 .subline_container {
@@ -556,9 +561,15 @@ margin: 0 0 10px 0;
 }
 
 .logo {
-margin: -4px 0 0 10px;
-width: 150px;
-height: 35px;
+display: none;
+}
+
+.logo_mobile {
+display: block;
+order: 1;
+margin: -8px 0 0 4px;
+width: 125px;
+height: 32px;
 float: right;
 }
 
@@ -620,9 +631,8 @@ height: 35px;
 margin: 0;
 }
 
-.logo {
-margin: 6px 0 0 6px;
-width: 120px;
+.logo_mobile {
+margin: -2px 0 0 4px;
 }
 
 .subline_mobile {
