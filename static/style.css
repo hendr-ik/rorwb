@@ -1,5 +1,5 @@
 /*
-* Taell - Honey Waffle - Web Client
+* Taell - Rorschach Test - Web Client
 * Copyright 2018, Taell
 * www.taell.me
 * Free to use under the MIT license.
@@ -136,15 +136,14 @@ font-weight: 600;
 text-decoration: none;
 }
 
-/* DFlow cookie notice */
-.t-messageBody__container_bot a,
-.t-messageBody__container_bot a:hover,
-.t-messageBody__container_bot a:focus {
-color: var(--color_contrast);
+/* cookie notice */
+.cookie_notice a,
+.cookie_notice a:hover,
+.cookie_notice a:focus {
+color: var(--color_background_main);
 font-weight: 600;
 text-decoration: none;
 }
-
 
 /* BUTTONS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -318,6 +317,11 @@ color: var(--color_white);
 width: 100%;
 height: auto;
 margin: 2px 0 2px 0;
+}
+
+/* cookie notice */
+.cookie_notice {
+color: var(--color_background_main);
 }
 
 /* In chat buttons */
@@ -719,6 +723,10 @@ margin: 2px 0 0 0;
 
 .t-global__button {
 padding: 8px 10px 4px 10px;
+}
+
+.content {
+margin: 0;
 }
 
 }
